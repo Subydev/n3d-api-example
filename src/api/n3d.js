@@ -3,9 +3,8 @@
  * https://n3dmelbourne.com/resources/docs/designs-api
  */
 
-// domain transfer in progress - using vercel subdomain for now
-// vite proxy handles CORS in dev (see vite.config.js)
-const API_BASE = import.meta.env.DEV ? '/api/v1' : 'https://n3d.vercel.app/api/v1'
+// proxy handles CORS - vite in dev, vercel rewrites in prod
+const API_BASE = '/api/v1'
 
 const getApiKey = () => import.meta.env.VITE_N3D_API_KEY
 
