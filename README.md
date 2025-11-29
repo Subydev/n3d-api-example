@@ -1,14 +1,6 @@
 # N3D API Example
 
-Example app demonstrating the [N3D Designs API](https://n3dmelbourne.com/resources/docs/designs-api). Shows a use case for showcasing a design libary and how to calculate filaments.
-
-## Features
-
-**Design Library** - Browse desings with search and category filters. Client-side pagination
-
-**Filament Calculator** - Track filament inventory, add designs to a wishlist, and get low-stock warnings with n3d Affiliate purchase links.
-
-## Tech Stack
+Example app demonstrating the [N3D Designs API](https://n3dmelbourne.com/resources/docs/designs-api). Demonstrates a design libary and how to calculate filaments.
 
 - React 19 + Vite
 - Tailwind
@@ -36,12 +28,6 @@ npm run dev
 ```
 
 The Vite dev server proxies `/api` requests to handle CORS.
-
-## Deployment
-
-Configured for GitHub Pages. 
-
-For other hosts, run `npm run build` and serve the `dist` folder. Set `VITE_N3D_API_KEY` as an environment variable during build.
 
 ## Project Structure
 
