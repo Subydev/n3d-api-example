@@ -9,7 +9,7 @@ export default defineConfig({
     proxy: {
       // Proxy API requests during development to avoid CORS
       '/api': {
-        target: 'https://n3d.vercel.app',
+        target: 'http://n3dmelbourne.com',
         changeOrigin: true,
         secure: true
       }

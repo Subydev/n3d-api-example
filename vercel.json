@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/api/:path*", "destination": "https://n3d.vercel.app/api/:path*" }
+    {
+      "source": "/api/:path*",
+      "destination": "https://www.n3dmelbourne.com/api/:path*"
+    }
   ]
 }
